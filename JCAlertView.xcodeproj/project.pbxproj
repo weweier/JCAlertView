@@ -15,6 +15,7 @@
 		FCEBFA9D1DD9B9BE00BF0BB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEBFA9B1DD9B9BE00BF0BB6 /* LaunchScreen.storyboard */; };
 		FCEBFAA81DD9B9BE00BF0BB6 /* JCAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEBFAA71DD9B9BE00BF0BB6 /* JCAlertViewTests.m */; };
 		FCEBFAB31DD9B9BE00BF0BB6 /* JCAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEBFAB21DD9B9BE00BF0BB6 /* JCAlertViewUITests.m */; };
+		FCEBFAC21DD9BA1300BF0BB6 /* JCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEBFAC11DD9BA1300BF0BB6 /* JCAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FCEBFAAE1DD9B9BE00BF0BB6 /* JCAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEBFAB21DD9B9BE00BF0BB6 /* JCAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCAlertViewUITests.m; sourceTree = "<group>"; };
 		FCEBFAB41DD9B9BE00BF0BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCEBFAC01DD9BA1300BF0BB6 /* JCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCAlertView.h; sourceTree = "<group>"; };
+		FCEBFAC11DD9BA1300BF0BB6 /* JCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				FCEBFA931DD9B9BE00BF0BB6 /* ViewController.h */,
 				FCEBFA941DD9B9BE00BF0BB6 /* ViewController.m */,
 				FCEBFA961DD9B9BE00BF0BB6 /* Main.storyboard */,
+				FCEBFAC01DD9BA1300BF0BB6 /* JCAlertView.h */,
+				FCEBFAC11DD9BA1300BF0BB6 /* JCAlertView.m */,
 				FCEBFA991DD9B9BE00BF0BB6 /* Assets.xcassets */,
 				FCEBFA9B1DD9B9BE00BF0BB6 /* LaunchScreen.storyboard */,
 				FCEBFA9E1DD9B9BE00BF0BB6 /* Info.plist */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCEBFAC21DD9BA1300BF0BB6 /* JCAlertView.m in Sources */,
 				FCEBFA951DD9B9BE00BF0BB6 /* ViewController.m in Sources */,
 				FCEBFA921DD9B9BE00BF0BB6 /* AppDelegate.m in Sources */,
 				FCEBFA8F1DD9B9BE00BF0BB6 /* main.m in Sources */,
@@ -423,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JCAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jcalertview.com.JCAlertView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JCAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jcalertview.com.JCAlertView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
